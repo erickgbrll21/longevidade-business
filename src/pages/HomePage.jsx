@@ -153,7 +153,7 @@ export default function HomePage() {
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">O que fazemos</span>
             <h2 className="mb-4 text-[clamp(28px,4vw,44px)] font-bold tracking-[-0.03em]">
-              Seis frentes. <span className="grad-text">Um interlocutor.</span>
+              Sete frentes. <span className="grad-text">Um interlocutor.</span>
             </h2>
             <p className="max-w-[65ch] text-[17px] leading-relaxed text-gray-brand">
               Em vez de gerir dezenas de fornecedores, sua empresa centraliza tudo em um único parceiro.

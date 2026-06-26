@@ -6,11 +6,37 @@ import FrenteIcon from '../components/FrenteIcon'
 
 const labels = {
   beneficios: 'Benefícios',
+  saude: 'Saúde e bem-estar',
   rh: 'RH e pessoas',
   ti: 'Tecnologia',
   financas: 'Finanças',
   educacao: 'Educação',
   esg: 'ESG',
+}
+
+function CardItem({ item }) {
+  if (typeof item === 'string') {
+    return (
+      <li className="relative pl-5 text-[13.5px] leading-snug text-gray-brand before:absolute before:left-0 before:top-2 before:h-1.5 before:w-2.5 before:-rotate-45 before:border-b-2 before:border-l-2 before:border-blue">
+        {item}
+      </li>
+    )
+  }
+
+  return (
+    <li className="relative pl-5 text-[13.5px] leading-snug text-gray-brand before:absolute before:left-0 before:top-2 before:h-1.5 before:w-2.5 before:-rotate-45 before:border-b-2 before:border-l-2 before:border-blue">
+      {item.text}
+      {item.subitems?.length > 0 && (
+        <ul className="mt-1.5 space-y-1 pl-1">
+          {item.subitems.map((sub) => (
+            <li key={sub} className="relative pl-3.5 text-[12.5px] text-gray-soft before:absolute before:left-0 before:top-[0.55em] before:h-1 before:w-1 before:rounded-full before:bg-blue/60">
+              {sub}
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  )
 }
 
 export default function SolutionPage({ slug }) {
@@ -104,13 +130,8 @@ export default function SolutionPage({ slug }) {
                         {card.title}
                       </h4>
                       <ul className="space-y-1">
-                        {card.items.map((item) => (
-                          <li
-                            key={item}
-                            className="relative pl-5 text-[13.5px] leading-snug text-gray-brand before:absolute before:left-0 before:top-2 before:h-1.5 before:w-2.5 before:-rotate-45 before:border-b-2 before:border-l-2 before:border-blue"
-                          >
-                            {item}
-                          </li>
+                        {card.items.map((item, i) => (
+                          <CardItem key={typeof item === 'string' ? item : `${item.text}-${i}`} item={item} />
                         ))}
                       </ul>
                     </div>
@@ -127,7 +148,10 @@ export default function SolutionPage({ slug }) {
           <h3 className="max-w-[640px] text-[clamp(24px,3vw,34px)] font-extrabold tracking-[-0.025em]">
             {data.modelStrip} — com condição de canal e suporte permanente, sem custo para você.
           </h3>
-          <Button to="/#diagnostico" className="shrink-0 bg-white !text-blue-deep">
+          <Button
+            to="/#diagnostico"
+            className="shrink-0 !border-none !bg-white !bg-none !text-blue-deep !shadow-[0_8px_24px_-8px_rgba(0,0,0,0.35)] hover:!-translate-y-0.5 hover:!bg-white/95 hover:!text-blue-deep hover:!shadow-[0_12px_32px_-10px_rgba(0,0,0,0.4)]"
+          >
             Falar com especialista →
           </Button>
         </div>

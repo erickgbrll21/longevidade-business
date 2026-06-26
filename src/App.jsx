@@ -9,6 +9,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="beneficios" element={<SolutionPage slug="beneficios" />} />
+        <Route path="saude" element={<SolutionPage slug="saude" />} />
         <Route path="rh" element={<SolutionPage slug="rh" />} />
         <Route path="ti" element={<SolutionPage slug="ti" />} />
         <Route path="financas" element={<SolutionPage slug="financas" />} />

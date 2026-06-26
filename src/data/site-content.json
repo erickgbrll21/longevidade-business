@@ -3,7 +3,7 @@
     "hero": {
       "eyebrow": "Hub estratégico de soluções corporativas",
       "titleHtml": "Um só parceiro.<br><span class=\"grad-text-light\">Todas as condições.</span>",
-      "description": "Centralize Benefícios, RH, TI, Finanças, Educação e ESG em um único interlocutor. Negociamos com o poder de quem move R$ 1,5 bilhão em contratos — e o melhor: sem custo para a sua empresa."
+      "description": "Centralize Benefícios, Saúde, RH, TI, Finanças, Educação e ESG em um único interlocutor. Negociamos com o poder de quem move R$ 1,5 bilhão em contratos — e o melhor: sem custo para a sua empresa."
     },
     "stats": [
       {
@@ -31,12 +31,23 @@
       {
         "slug": "beneficios",
         "title": "Benefícios corporativos",
-        "description": "VR, VA, multibenefícios, saúde mental (NR-1), telemedicina, cartões e compliance PAT — com poder de canal das maiores operadoras.",
+        "description": "VR, VA, multibenefícios, mobilidade, cartões corporativos e compliance PAT — com poder de canal das maiores operadoras.",
         "chips": [
           "VR · VA",
           "Multibenefícios",
-          "Saúde Mental NR-1",
+          "Mobilidade",
           "Compliance PAT"
+        ]
+      },
+      {
+        "slug": "saude",
+        "title": "Saúde e bem-estar",
+        "description": "Saúde mental, NR-1, telemedicina, programas especializados e assistências complementares — alinhado a ESG.",
+        "chips": [
+          "Saúde Mental",
+          "NR-1",
+          "Telemedicina",
+          "TotalPass · Wellhub"
         ]
       },
       {
@@ -101,7 +112,7 @@
       "slug": "beneficios",
       "eyebrow": "Vamos começar",
       "titleHtml": "Benefícios<br><span class=\"grad-text-light\">corporativos.</span>",
-      "heroDescription": "Do VR ao programa de saúde mental exigido pela NR-1. Como maior canal de várias operadoras, entregamos condições superiores — com curadoria, implementação e suporte, sem custo para a sua empresa.",
+      "heroDescription": "Do VR à gestão de despesas corporativas. Como maior canal de várias operadoras, entregamos condições superiores — com curadoria, implementação e suporte, sem custo para a sua empresa.",
       "introTitle": "Tudo em benefícios, em um só lugar.",
       "introDescription": "Reunimos as principais operadoras e soluções do mercado em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos. Cada solução é customizada conforme porte, segmento e necessidade da sua empresa.",
       "stats": [
@@ -127,10 +138,21 @@
             {
               "title": "Alimentação e Refeição",
               "items": [
-                "Vale-Refeição (VR)",
-                "Vale-Alimentação (VA)",
-                "Benefícios Flexíveis",
-                "Cartões Multibenefícios",
+                "Vale-Refeição (VR) e Vale-Alimentação (VA) em um único Cartão Multibenefícios",
+                {
+                  "text": "Um único cartão com diversas categorias de benefícios:",
+                  "subitems": [
+                    "Refeição",
+                    "Alimentação",
+                    "Premiação",
+                    "Incentivo",
+                    "Educação",
+                    "Saúde",
+                    "Cultura",
+                    "Entre outras modalidades"
+                  ]
+                },
+                "Benefícios Flexíveis em Cartões Bandeirados (Arranjo Aberto) — cartões aceitos em qualquer estabelecimento que possua máquina habilitada para pagamentos na função crédito, proporcionando uma rede de aceitação significativamente mais ampla e maior liberdade de utilização aos colaboradores",
                 "Cartões de Premiação e Incentivo",
                 "Cartões Presente",
                 "Programas de Reconhecimento"
@@ -140,8 +162,11 @@
               "title": "Mobilidade",
               "items": [
                 "Vale-Transporte",
-                "Auxílio Mobilidade",
-                "Gestão de Benefícios de Deslocamento"
+                "Gestão de Benefícios de Deslocamento",
+                "Roteirização Inteligente",
+                "Gestão Inteligente de Poupador de VT (economia real na fatura mensal de Vale-Transporte)",
+                "Gestão Administrativa de Emissores e Fornecedores de Transporte",
+                "Tratativa de Intercorrências, reduzindo ao máximo a interação humana e minimizando erros operacionais"
               ]
             },
             {
@@ -154,32 +179,60 @@
               ]
             },
             {
-              "title": "Cartões Corporativos",
+              "title": "Despesas Corporativas",
               "items": [
-                "Cartões Personalizados",
-                "Bandeira Visa",
-                "Bandeira Mastercard",
-                "Cartões White Label",
-                "Carteiras Digitais"
+                "Cartões Corporativos",
+                "Prestação de Contas Digital",
+                "Gestão de Reembolsos",
+                "Controle de Despesas Corporativas",
+                "Gestão de Cupons Fiscais e Notas Fiscais",
+                "Fluxo de Aprovação entre Colaborador, Gestor, RH e Financeiro",
+                "Relatórios Gerenciais e Governança das Despesas"
               ]
             },
             {
               "title": "Gestão e Compliance",
               "items": [
-                "Compliance PAT",
-                "Adequação à Lei do PAT",
-                "Adequação a Decretos e Normativas",
+                "Compliance com a Lei nº 14.442 (Programa de Alimentação do Trabalhador – PAT)",
+                "Soluções atualizadas conforme o Decreto nº 12.712, de novembro de 2025",
+                "Adequação aos Decretos e Normativas Vigentes",
                 "Gestão de Fornecedores Credenciados",
-                "Auditoria de Benefícios",
-                "Governança de Programas"
+                "Auditoria de Benefícios"
               ]
             }
           ]
+        }
+      ],
+      "modelStrip": "Gestão de Benefícios",
+      "ctaTitle": "Tudo em benefícios, em um só lugar.",
+      "ctaDescription": "Reunimos as principais operadoras e soluções do mercado em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos. Cada solução é customizada conforme porte, segmento e necessidade da sua empresa."
+    },
+    {
+      "slug": "saude",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "Saúde e<br><span class=\"grad-text-light\">bem-estar.</span>",
+      "heroDescription": "Saúde mental, NR-1, telemedicina, programas especializados e assistências complementares. Centralizamos as melhores soluções de bem-estar corporativo — com curadoria, implementação e suporte, sem custo para a sua empresa.",
+      "introTitle": "Bem-estar integral para o colaborador.",
+      "introDescription": "Reunimos operadoras, plataformas digitais e programas especializados em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "produtos e serviços em saúde"
         },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
         {
           "title": "Saúde e Bem-Estar",
           "subtitle": "Saúde mental, NR-1, saúde digital e assistências — alinhado a ESG",
-          "alt": true,
+          "alt": false,
           "cards": [
             {
               "title": "Saúde Mental",
@@ -219,9 +272,9 @@
           ]
         }
       ],
-      "modelStrip": "Gestão de Benefícios",
-      "ctaTitle": "Tudo em benefícios, em um só lugar.",
-      "ctaDescription": "Reunimos as principais operadoras e soluções do mercado em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos. Cada solução é customizada conforme porte, segmento e necessidade da sua empresa."
+      "modelStrip": "Saúde e Bem-Estar",
+      "ctaTitle": "Tudo em saúde e bem-estar, em um só lugar.",
+      "ctaDescription": "Reunimos as principais soluções de saúde mental, telemedicina e qualidade de vida em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — pagando R$ 0 por isso."
     },
     {
       "slug": "rh",

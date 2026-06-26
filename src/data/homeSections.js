@@ -64,8 +64,8 @@ export const homeSections = {
       {
         badge: 'Hub estratégico',
         title: 'Longevidade Business',
-        text: 'O canal com poder de barganha superior. Interlocutor único para Benefícios, RH, TI, Finanças, Educação e ESG — com 40+ fornecedores e R$ 1,5 bi em contratos ativos.',
-        tags: ['Benefícios', 'RH', 'TI', 'Finanças', 'Educação', 'ESG'],
+        text: 'O canal com poder de barganha superior. Interlocutor único para Benefícios, Saúde, RH, TI, Finanças, Educação e ESG — com 40+ fornecedores e R$ 1,5 bi em contratos ativos.',
+        tags: ['Benefícios', 'Saúde', 'RH', 'TI', 'Finanças', 'Educação', 'ESG'],
         lead: true,
       },
       {

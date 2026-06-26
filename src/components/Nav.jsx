@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const links = [
   { label: 'Benefícios', to: '/beneficios' },
+  { label: 'Saúde', to: '/saude' },
   { label: 'RH', to: '/rh' },
   { label: 'TI', to: '/ti' },
   { label: 'Finanças', to: '/financas' },

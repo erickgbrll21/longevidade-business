@@ -51,6 +51,7 @@ const socialLinks = [
 
 const navLinks = [
   { label: 'Benefícios', href: '/beneficios' },
+  { label: 'Saúde e bem-estar', href: '/saude' },
   { label: 'RH e pessoas', href: '/rh' },
   { label: 'Tecnologia', href: '/ti' },
   { label: 'Finanças', href: '/financas' },

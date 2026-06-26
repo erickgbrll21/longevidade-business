@@ -27,6 +27,7 @@ function useEffectTitle(pathname) {
   const titles = {
     '/': 'Longevidade Business — Hub estratégico B2B',
     '/beneficios': 'Benefícios corporativos — Longevidade Business',
+    '/saude': 'Saúde e bem-estar — Longevidade Business',
     '/rh': 'RH e gestão de pessoas — Longevidade Business',
     '/ti': 'Tecnologia e inovação — Longevidade Business',
     '/financas': 'Finanças corporativas — Longevidade Business',
