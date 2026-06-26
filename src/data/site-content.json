@@ -1,0 +1,1139 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Hub estratégico de soluções corporativas",
+      "titleHtml": "Um só parceiro.<br><span class=\"grad-text-light\">Todas as condições.</span>",
+      "description": "Centralize Benefícios, RH, TI, Finanças, Educação e ESG em um único interlocutor. Negociamos com o poder de quem move R$ 1,5 bilhão em contratos — e o melhor: sem custo para a sua empresa."
+    },
+    "stats": [
+      {
+        "value": "R$ 1,5 bi",
+        "label": "em contratos ativos"
+      },
+      {
+        "value": "6.000 +",
+        "label": "atendimentos consultivos"
+      },
+      {
+        "value": "400 +",
+        "label": "clientes ativos"
+      },
+      {
+        "value": "40 +",
+        "label": "fornecedores no hub"
+      },
+      {
+        "value": "200 +",
+        "label": "advogados no grupo"
+      }
+    ],
+    "frentes": [
+      {
+        "slug": "beneficios",
+        "title": "Benefícios corporativos",
+        "description": "VR, VA, multibenefícios, saúde mental (NR-1), telemedicina, cartões e compliance PAT — com poder de canal das maiores operadoras.",
+        "chips": [
+          "VR · VA",
+          "Multibenefícios",
+          "Saúde Mental NR-1",
+          "Compliance PAT"
+        ]
+      },
+      {
+        "slug": "rh",
+        "title": "RH e gestão de pessoas",
+        "description": "Folha, ponto, admissão digital, recrutamento, desempenho, people analytics e hub de sistemas com login único.",
+        "chips": [
+          "Folha",
+          "eSocial",
+          "Admissão digital",
+          "People Analytics"
+        ]
+      },
+      {
+        "slug": "ti",
+        "title": "Tecnologia e inovação",
+        "description": "Licenciamento, curadoria, desenvolvimento sob demanda, integrações via API, automação, IA e Business as a Service.",
+        "chips": [
+          "Software · SaaS",
+          "Integrações API",
+          "Automação",
+          "IA · BaaS"
+        ]
+      },
+      {
+        "slug": "financas",
+        "title": "Finanças corporativas",
+        "description": "Capital de giro, crédito estruturado, antecipação salarial, seguros corporativos e gestão financeira.",
+        "chips": [
+          "Capital de giro",
+          "Crédito",
+          "Antecipação",
+          "Seguros"
+        ]
+      },
+      {
+        "slug": "educacao",
+        "title": "Educação corporativa",
+        "description": "Universidades corporativas, LMS, trilhas de aprendizagem, IA aplicada à educação e analytics de capacitação.",
+        "chips": [
+          "Universidade",
+          "LMS",
+          "Trilhas",
+          "IA · Assessment"
+        ]
+      },
+      {
+        "slug": "esg",
+        "title": "ESG e governança",
+        "description": "Diagnóstico e indicadores ESG, compliance, gestão de riscos, Escala S e programas de sustentabilidade.",
+        "chips": [
+          "Diagnóstico ESG",
+          "Compliance",
+          "Escala S",
+          "Sustentabilidade"
+        ]
+      }
+    ]
+  },
+  "solutions": [
+    {
+      "slug": "beneficios",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "Benefícios<br><span class=\"grad-text-light\">corporativos.</span>",
+      "heroDescription": "Do VR ao programa de saúde mental exigido pela NR-1. Como maior canal de várias operadoras, entregamos condições superiores — com curadoria, implementação e suporte, sem custo para a sua empresa.",
+      "introTitle": "Tudo em benefícios, em um só lugar.",
+      "introDescription": "Reunimos as principais operadoras e soluções do mercado em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos. Cada solução é customizada conforme porte, segmento e necessidade da sua empresa.",
+      "stats": [
+        {
+          "value": "30+",
+          "label": "produtos e serviços em benefícios"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Gestão de Benefícios",
+          "subtitle": "Alimentação, mobilidade, cartões e soluções financeiras ao colaborador",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Alimentação e Refeição",
+              "items": [
+                "Vale-Refeição (VR)",
+                "Vale-Alimentação (VA)",
+                "Benefícios Flexíveis",
+                "Cartões Multibenefícios",
+                "Cartões de Premiação e Incentivo",
+                "Cartões Presente",
+                "Programas de Reconhecimento"
+              ]
+            },
+            {
+              "title": "Mobilidade",
+              "items": [
+                "Vale-Transporte",
+                "Auxílio Mobilidade",
+                "Gestão de Benefícios de Deslocamento"
+              ]
+            },
+            {
+              "title": "Soluções Financeiras ao Colaborador",
+              "items": [
+                "Antecipação Salarial sem Juros",
+                "Crédito Consignado",
+                "Educação Financeira",
+                "Planejamento Financeiro"
+              ]
+            },
+            {
+              "title": "Cartões Corporativos",
+              "items": [
+                "Cartões Personalizados",
+                "Bandeira Visa",
+                "Bandeira Mastercard",
+                "Cartões White Label",
+                "Carteiras Digitais"
+              ]
+            },
+            {
+              "title": "Gestão e Compliance",
+              "items": [
+                "Compliance PAT",
+                "Adequação à Lei do PAT",
+                "Adequação a Decretos e Normativas",
+                "Gestão de Fornecedores Credenciados",
+                "Auditoria de Benefícios",
+                "Governança de Programas"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Saúde e Bem-Estar",
+          "subtitle": "Saúde mental, NR-1, saúde digital e assistências — alinhado a ESG",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Saúde Mental",
+              "items": [
+                "Programas de Saúde Mental",
+                "Apoio Psicossocial",
+                "Gestão de Riscos Psicossociais",
+                "Adequação à NR-1"
+              ]
+            },
+            {
+              "title": "Programas Especializados",
+              "items": [
+                "TotalPass",
+                "Wellhub",
+                "Programas de Qualidade de Vida"
+              ]
+            },
+            {
+              "title": "Saúde Digital",
+              "items": [
+                "Telemedicina",
+                "Telepsicologia",
+                "Telenutrição",
+                "Teleorientação em Saúde"
+              ]
+            },
+            {
+              "title": "Assistências Complementares",
+              "items": [
+                "Orientação Jurídica",
+                "Orientação Veterinária e Pets",
+                "Seguro Alimentação",
+                "Assistência ao Empregado (EAP)"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "Gestão de Benefícios",
+      "ctaTitle": "Tudo em benefícios, em um só lugar.",
+      "ctaDescription": "Reunimos as principais operadoras e soluções do mercado em um único interlocutor. Você compara, escolhe e implementa com apoio especializado — e ainda ganha a condição comercial de quem move um grande volume de contratos. Cada solução é customizada conforme porte, segmento e necessidade da sua empresa."
+    },
+    {
+      "slug": "rh",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "RH e gestão<br><span class=\"grad-text-light\">de pessoas.</span>",
+      "heroDescription": "Do recrutamento ao desligamento: folha, ponto, admissão digital, desempenho e people analytics. Centralizamos os melhores sistemas de RH em um só lugar — sem custo para a sua empresa.",
+      "introTitle": "Toda a jornada do colaborador, integrada.",
+      "introDescription": "Reunimos plataformas e fornecedores de RH em um único hub, com login único e integração entre sistemas. Você compara, escolhe e implementa com apoio especializado — pagando R$ 0 por isso.",
+      "stats": [
+        {
+          "value": "30+",
+          "label": "produtos e serviços em RH"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Departamento Pessoal",
+          "subtitle": "Rotinas de DP automatizadas e em conformidade",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Folha de Pagamento",
+              "items": [
+                "Processamento",
+                "Gestão de encargos",
+                "Conformidade"
+              ]
+            },
+            {
+              "title": "Gestão de Benefícios",
+              "items": [
+                "Administração",
+                "Integração"
+              ]
+            },
+            {
+              "title": "Férias e Afastamentos",
+              "items": [
+                "Gestão de férias",
+                "Afastamentos",
+                "Documentação"
+              ]
+            },
+            {
+              "title": "eSocial",
+              "items": [
+                "Envio",
+                "Conformidade",
+                "Automação"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Controle de Jornada",
+          "subtitle": "Ponto, escalas e banco de horas",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Controle de Ponto",
+              "items": [
+                "Registro digital",
+                "Biometria",
+                "App"
+              ]
+            },
+            {
+              "title": "Banco de Horas",
+              "items": [
+                "Gestão",
+                "Compensação"
+              ]
+            },
+            {
+              "title": "Escalas",
+              "items": [
+                "Montagem",
+                "Gestão de presença"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Recrutamento e Seleção",
+          "subtitle": "Atração e triagem inteligente de talentos",
+          "alt": false,
+          "cards": [
+            {
+              "title": "ATS",
+              "items": [
+                "Gestão de vagas",
+                "Pipeline"
+              ]
+            },
+            {
+              "title": "Divulgação de Vagas",
+              "items": [
+                "Multiplataforma",
+                "Banco de talentos"
+              ]
+            },
+            {
+              "title": "Triagem Inteligente",
+              "items": [
+                "IA",
+                "Match de perfil"
+              ]
+            },
+            {
+              "title": "Recrutamento Digital",
+              "items": [
+                "Online",
+                "Remoto"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Admissão Digital",
+          "subtitle": "Onboarding sem papel",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Onboarding",
+              "items": [
+                "Fluxos automatizados"
+              ]
+            },
+            {
+              "title": "Assinatura Eletrônica",
+              "items": [
+                "Documentos",
+                "Validade jurídica"
+              ]
+            },
+            {
+              "title": "Gestão de Documentos",
+              "items": [
+                "Digital",
+                "Centralizada"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gestão de Desempenho",
+          "subtitle": "Avaliações, metas e desenvolvimento",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Avaliações",
+              "items": [
+                "360°",
+                "Por competência"
+              ]
+            },
+            {
+              "title": "PDI",
+              "items": [
+                "Planos de desenvolvimento"
+              ]
+            },
+            {
+              "title": "Metas e OKRs",
+              "items": [
+                "Definição",
+                "Acompanhamento"
+              ]
+            },
+            {
+              "title": "Feedback Contínuo",
+              "items": [
+                "Cultura",
+                "Registro"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "People Analytics",
+          "subtitle": "Indicadores e dashboards de RH",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Indicadores de RH",
+              "items": [
+                "Turnover",
+                "Absenteísmo"
+              ]
+            },
+            {
+              "title": "Produtividade",
+              "items": [
+                "Métricas",
+                "Análise"
+              ]
+            },
+            {
+              "title": "Dashboards Executivos",
+              "items": [
+                "Visão gerencial",
+                "BI"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hub de Sistemas",
+          "subtitle": "Login único e integração de plataformas",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Single Sign-On",
+              "items": [
+                "Login único",
+                "SSO"
+              ]
+            },
+            {
+              "title": "Gestão de Senhas",
+              "items": [
+                "Cofre",
+                "Segurança"
+              ]
+            },
+            {
+              "title": "Portal do Colaborador",
+              "items": [
+                "Acesso único",
+                "Autoatendimento"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "Departamento Pessoal",
+      "ctaTitle": "Toda a jornada do colaborador, integrada.",
+      "ctaDescription": "Reunimos plataformas e fornecedores de RH em um único hub, com login único e integração entre sistemas. Você compara, escolhe e implementa com apoio especializado — pagando R$ 0 por isso."
+    },
+    {
+      "slug": "ti",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "Tecnologia<br><span class=\"grad-text-light\">e inovação.</span>",
+      "heroDescription": "Software, integrações, automação e IA. Fazemos a curadoria técnica e a consolidação de fornecedores de TI — reduzindo custo por volume, sem custo de consultoria para você.",
+      "introTitle": "Tecnologia certa, custo otimizado.",
+      "introDescription": "Em vez de negociar licenças e sistemas isoladamente, você centraliza com quem tem volume e curadoria técnica. Desenvolvemos sob demanda, integramos seus sistemas e operamos como serviço — pagando R$ 0 pela nossa atuação.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "soluções de tecnologia"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Software Corporativo",
+          "subtitle": "Licenciamento e curadoria",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Licenciamento de Software",
+              "items": [
+                "Microsoft",
+                "Adobe",
+                "Outros"
+              ]
+            },
+            {
+              "title": "Curadoria Tecnológica",
+              "items": [
+                "Análise",
+                "Recomendação"
+              ]
+            },
+            {
+              "title": "Software sob Demanda",
+              "items": [
+                "SaaS",
+                "Customizado"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "subtitle": "Sistemas, web e mobile sob medida",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Desenvolvimento de Sistemas",
+              "items": [
+                "Web",
+                "Backend"
+              ]
+            },
+            {
+              "title": "Aplicações Mobile",
+              "items": [
+                "iOS",
+                "Android"
+              ]
+            },
+            {
+              "title": "Portais Corporativos",
+              "items": [
+                "Intranets",
+                "Portais"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Integrações",
+          "subtitle": "Conectando seus sistemas via API",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Integração via API",
+              "items": [
+                "REST",
+                "Webhooks"
+              ]
+            },
+            {
+              "title": "Integração ERP",
+              "items": [
+                "SAP",
+                "Outros"
+              ]
+            },
+            {
+              "title": "Integração RH e Financeira",
+              "items": [
+                "Dados",
+                "Fluxos"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Automação e IA",
+          "subtitle": "Processos inteligentes e assistentes",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Automação de Processos",
+              "items": [
+                "RPA",
+                "Workflows"
+              ]
+            },
+            {
+              "title": "Inteligência Artificial",
+              "items": [
+                "Modelos",
+                "Análise"
+              ]
+            },
+            {
+              "title": "Chatbots Corporativos",
+              "items": [
+                "Atendimento",
+                "RH interno"
+              ]
+            },
+            {
+              "title": "IA para Atendimento",
+              "items": [
+                "Assistentes",
+                "24/7"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Business as a Service",
+          "subtitle": "Operação gerenciada de ponta a ponta",
+          "alt": false,
+          "cards": [
+            {
+              "title": "BaaS",
+              "items": [
+                "Operação como serviço"
+              ]
+            },
+            {
+              "title": "Operação Gerenciada",
+              "items": [
+                "Terceirização",
+                "Sustentação"
+              ]
+            },
+            {
+              "title": "Suporte",
+              "items": [
+                "Manutenção",
+                "SLA"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "Software Corporativo",
+      "ctaTitle": "Tecnologia certa, custo otimizado.",
+      "ctaDescription": "Em vez de negociar licenças e sistemas isoladamente, você centraliza com quem tem volume e curadoria técnica. Desenvolvemos sob demanda, integramos seus sistemas e operamos como serviço — pagando R$ 0 pela nossa atuação."
+    },
+    {
+      "slug": "financas",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "Finanças<br><span class=\"grad-text-light\">corporativas.</span>",
+      "heroDescription": "Capital de giro, crédito estruturado, seguros e bem-estar financeiro ao colaborador. Conectamos sua empresa às melhores soluções financeiras do mercado — sem custo de intermediação.",
+      "introTitle": "Fôlego financeiro para crescer.",
+      "introDescription": "Reunimos as principais soluções de crédito, seguros e gestão financeira em um só interlocutor. Você acessa condições competitivas com apoio na estruturação — pagando R$ 0 pela nossa consultoria.",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "soluções financeiras"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Crédito Empresarial",
+          "subtitle": "Capital para operar e expandir",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Capital de Giro",
+              "items": [
+                "Liquidez",
+                "Operação"
+              ]
+            },
+            {
+              "title": "Crédito Estruturado",
+              "items": [
+                "Sob medida"
+              ]
+            },
+            {
+              "title": "Linhas de Financiamento",
+              "items": [
+                "Investimento"
+              ]
+            },
+            {
+              "title": "Crédito para Expansão",
+              "items": [
+                "Crescimento"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gestão Financeira",
+          "subtitle": "Diagnóstico e planejamento",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Diagnóstico Financeiro",
+              "items": [
+                "Análise",
+                "Saúde financeira"
+              ]
+            },
+            {
+              "title": "Planejamento Financeiro",
+              "items": [
+                "Projeções"
+              ]
+            },
+            {
+              "title": "Fluxo de Caixa",
+              "items": [
+                "Estruturação"
+              ]
+            },
+            {
+              "title": "Gestão de Indicadores",
+              "items": [
+                "KPIs",
+                "Dashboards"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bem-Estar Financeiro",
+          "subtitle": "Soluções para o colaborador",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Antecipação Salarial sem Juros",
+              "items": [
+                "Acesso ao salário"
+              ]
+            },
+            {
+              "title": "Educação Financeira",
+              "items": [
+                "Capacitação"
+              ]
+            },
+            {
+              "title": "Soluções de Bem-Estar",
+              "items": [
+                "Saúde financeira"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Seguros Corporativos",
+          "subtitle": "Proteção patrimonial e de pessoas",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Seguro Empresarial",
+              "items": [
+                "Patrimônio"
+              ]
+            },
+            {
+              "title": "Seguro Saúde",
+              "items": [
+                "Colaboradores"
+              ]
+            },
+            {
+              "title": "Seguro Vida",
+              "items": [
+                "Proteção"
+              ]
+            },
+            {
+              "title": "Programas de Proteção",
+              "items": [
+                "Benefícios",
+                "Financeiro"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "Crédito Empresarial",
+      "ctaTitle": "Fôlego financeiro para crescer.",
+      "ctaDescription": "Reunimos as principais soluções de crédito, seguros e gestão financeira em um só interlocutor. Você acessa condições competitivas com apoio na estruturação — pagando R$ 0 pela nossa consultoria."
+    },
+    {
+      "slug": "educacao",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "Educação<br><span class=\"grad-text-light\">corporativa.</span>",
+      "heroDescription": "Universidades corporativas, LMS, trilhas de aprendizagem e IA aplicada à educação. Estruturamos o desenvolvimento dos seus times — do conteúdo ao analytics, sem custo para a sua empresa.",
+      "introTitle": "Times que aprendem, empresas que crescem.",
+      "introDescription": "Construímos universidades corporativas e implementamos plataformas de aprendizagem sob medida. Da estruturação de trilhas ao ROI da capacitação, com apoio completo — pagando R$ 0 pela nossa atuação.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "soluções de educação"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Universidade Corporativa",
+          "subtitle": "Estrutura de educação contínua",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Estruturação de Universidades",
+              "items": [
+                "Do zero",
+                "Sob medida"
+              ]
+            },
+            {
+              "title": "Trilhas de Aprendizagem",
+              "items": [
+                "Por cargo",
+                "Por competência"
+              ]
+            },
+            {
+              "title": "Educação Continuada",
+              "items": [
+                "Programas",
+                "Certificações"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plataformas LMS",
+          "subtitle": "Tecnologia de aprendizagem",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Implantação de LMS",
+              "items": [
+                "Setup",
+                "Migração"
+              ]
+            },
+            {
+              "title": "Gestão de Conteúdo",
+              "items": [
+                "Cursos",
+                "Materiais"
+              ]
+            },
+            {
+              "title": "Gestão de Treinamentos",
+              "items": [
+                "Turmas",
+                "Acompanhamento"
+              ]
+            },
+            {
+              "title": "Certificações",
+              "items": [
+                "Emissão",
+                "Validação"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento de Pessoas",
+          "subtitle": "Capacitação técnica e comportamental",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Capacitação Técnica",
+              "items": [
+                "Hard skills"
+              ]
+            },
+            {
+              "title": "Capacitação Comportamental",
+              "items": [
+                "Soft skills"
+              ]
+            },
+            {
+              "title": "Liderança",
+              "items": [
+                "Formação de líderes"
+              ]
+            },
+            {
+              "title": "Desenvolvimento de Carreira",
+              "items": [
+                "Planos",
+                "Sucessão"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IA Aplicada à Educação",
+          "subtitle": "Aprendizagem personalizada",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Assessment Automatizado",
+              "items": [
+                "Avaliação",
+                "IA"
+              ]
+            },
+            {
+              "title": "Diagnóstico de Competências",
+              "items": [
+                "Mapeamento"
+              ]
+            },
+            {
+              "title": "Identificação de Gaps",
+              "items": [
+                "Análise"
+              ]
+            },
+            {
+              "title": "Recomendações",
+              "items": [
+                "Trilhas personalizadas"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Analytics Educacional",
+          "subtitle": "Indicadores e ROI de treinamento",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Dashboards",
+              "items": [
+                "Visão executiva"
+              ]
+            },
+            {
+              "title": "Indicadores de Treinamento",
+              "items": [
+                "Engajamento",
+                "Conclusão"
+              ]
+            },
+            {
+              "title": "ROI da Capacitação",
+              "items": [
+                "Retorno",
+                "Impacto"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "Universidade Corporativa",
+      "ctaTitle": "Times que aprendem, empresas que crescem.",
+      "ctaDescription": "Construímos universidades corporativas e implementamos plataformas de aprendizagem sob medida. Da estruturação de trilhas ao ROI da capacitação, com apoio completo — pagando R$ 0 pela nossa atuação."
+    },
+    {
+      "slug": "esg",
+      "eyebrow": "Vamos começar",
+      "titleHtml": "ESG e<br><span class=\"grad-text-light\">governança.</span>",
+      "heroDescription": "Diagnóstico ESG, compliance, gestão de riscos e Escala S. Estruturamos a jornada de sustentabilidade e governança da sua empresa — com método, indicadores e apoio jurídico, sem custo de consultoria.",
+      "introTitle": "Sustentabilidade que vira vantagem competitiva.",
+      "introDescription": "ESG deixou de ser tendência e virou exigência de mercado e de contratos. Estruturamos diagnóstico, indicadores e governança com método e apoio do nosso ecossistema jurídico — pagando R$ 0 pela nossa atuação.",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "soluções em ESG e governança"
+        },
+        {
+          "value": "100%",
+          "label": "customizável ao seu cenário"
+        },
+        {
+          "value": "R$ 0",
+          "label": "de custo para o cliente"
+        }
+      ],
+      "groups": [
+        {
+          "title": "ESG Corporativo",
+          "subtitle": "Diagnóstico e indicadores",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Diagnóstico ESG",
+              "items": [
+                "Avaliação",
+                "Baseline"
+              ]
+            },
+            {
+              "title": "Planejamento ESG",
+              "items": [
+                "Estratégia",
+                "Metas"
+              ]
+            },
+            {
+              "title": "Indicadores ESG",
+              "items": [
+                "KPIs",
+                "Monitoramento"
+              ]
+            },
+            {
+              "title": "Relatórios ESG",
+              "items": [
+                "Reporte",
+                "Transparência"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Governança",
+          "subtitle": "Compliance e gestão de riscos",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Compliance",
+              "items": [
+                "Programas",
+                "Adequação"
+              ]
+            },
+            {
+              "title": "Políticas Corporativas",
+              "items": [
+                "Estruturação"
+              ]
+            },
+            {
+              "title": "Gestão de Riscos",
+              "items": [
+                "Mapeamento",
+                "Mitigação"
+              ]
+            },
+            {
+              "title": "Auditoria",
+              "items": [
+                "Interna",
+                "Conformidade"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Impacto social e ambiental",
+          "alt": false,
+          "cards": [
+            {
+              "title": "Programas de Sustentabilidade",
+              "items": [
+                "Ambiental",
+                "Social"
+              ]
+            },
+            {
+              "title": "Impacto Social",
+              "items": [
+                "Comunidade"
+              ]
+            },
+            {
+              "title": "Diversidade e Inclusão",
+              "items": [
+                "D&I",
+                "Cultura"
+              ]
+            },
+            {
+              "title": "Responsabilidade Corporativa",
+              "items": [
+                "ESG na prática"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Escala S ESG",
+          "subtitle": "Evolução de maturidade ESG",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Diagnóstico",
+              "items": [
+                "Nível atual"
+              ]
+            },
+            {
+              "title": "Mapeamento",
+              "items": [
+                "Jornada"
+              ]
+            },
+            {
+              "title": "Certificação",
+              "items": [
+                "Selo",
+                "Validação"
+              ]
+            },
+            {
+              "title": "Evolução de Maturidade",
+              "items": [
+                "Roadmap",
+                "Progresso"
+              ]
+            }
+          ]
+        }
+      ],
+      "modelStrip": "ESG Corporativo",
+      "ctaTitle": "Sustentabilidade que vira vantagem competitiva.",
+      "ctaDescription": "ESG deixou de ser tendência e virou exigência de mercado e de contratos. Estruturamos diagnóstico, indicadores e governança com método e apoio do nosso ecossistema jurídico — pagando R$ 0 pela nossa atuação."
+    }
+  ]
+}
