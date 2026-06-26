@@ -133,9 +133,9 @@ export default function HomePage() {
             {sections.model.points.map((point) => (
               <div
                 key={point.title}
-                className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5"
+                className="group relative flex gap-4 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-blue-pale/35 hover:bg-white/[0.08] hover:shadow-[0_12px_40px_-16px_rgba(2,136,209,0.35)] before:absolute before:inset-x-0 before:top-0 before:h-0.5 before:origin-left before:scale-x-0 before:bg-gradient-to-r before:from-blue before:to-blue-deep before:transition-transform before:duration-300 group-hover:before:scale-x-100"
               >
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue/20 to-blue-deep/10 text-blue-pale">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue/20 to-blue-deep/10 text-blue-pale transition-all duration-300 group-hover:scale-110 group-hover:from-blue/35 group-hover:to-blue-deep/20 group-hover:shadow-[0_0_20px_-4px_rgba(2,136,209,0.5)]">
                   ✓
                 </div>
                 <div>
