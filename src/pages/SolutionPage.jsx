@@ -9,7 +9,7 @@ const labels = {
   saude: 'Saúde e bem-estar',
   rh: 'RH e pessoas',
   ti: 'Tecnologia',
-  financas: 'Finanças',
+  financas: 'Proteção ao Negócio',
   educacao: 'Educação',
   esg: 'ESG',
 }

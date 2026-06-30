@@ -30,7 +30,7 @@ function useEffectTitle(pathname) {
     '/saude': 'Saúde e bem-estar — Longevidade Business',
     '/rh': 'RH e gestão de pessoas — Longevidade Business',
     '/ti': 'Tecnologia e inovação — Longevidade Business',
-    '/financas': 'Finanças corporativas — Longevidade Business',
+    '/financas': 'Proteção ao Negócio — Longevidade Business',
     '/educacao': 'Educação corporativa — Longevidade Business',
     '/esg': 'ESG e governança — Longevidade Business',
   }

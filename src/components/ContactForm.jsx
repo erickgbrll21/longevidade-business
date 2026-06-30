@@ -46,7 +46,7 @@ export default function ContactForm() {
           <option>Benefícios corporativos</option>
           <option>RH e gestão de pessoas</option>
           <option>Tecnologia e inovação</option>
-          <option>Finanças corporativas</option>
+          <option>Proteção ao Negócio</option>
           <option>Educação corporativa</option>
           <option>ESG e governança</option>
           <option>Mercado público (ConcorreAI)</option>

@@ -123,13 +123,15 @@ export function Footer({
           {displayBackground}
         </div>
 
-        <div className="absolute inset-x-0 bottom-24 z-30 flex justify-center md:bottom-20">
-          <div className="modem-footer-badge flex items-center justify-center overflow-visible rounded-3xl border-2 border-blue-400/30 bg-ink/60 p-2.5 backdrop-blur-sm drop-shadow-[0_0px_20px_rgb(59,130,246)] transition-colors duration-400 hover:border-blue-400">
-            <div className="flex h-14 w-14 items-center justify-center sm:h-20 sm:w-20 md:h-28 md:w-28">
-              {brandIcon}
+        {brandIcon && (
+          <div className="absolute inset-x-0 bottom-24 z-30 flex justify-center md:bottom-20">
+            <div className="modem-footer-badge flex items-center justify-center overflow-visible rounded-3xl border-2 border-blue-400/30 bg-ink/60 p-2.5 backdrop-blur-sm drop-shadow-[0_0px_20px_rgb(59,130,246)] transition-colors duration-400 hover:border-blue-400">
+              <div className="flex h-14 w-14 items-center justify-center sm:h-20 sm:w-20 md:h-28 md:w-28">
+                {brandIcon}
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div className="absolute bottom-32 left-1/2 z-25 h-1 w-full -translate-x-1/2 bg-linear-to-r from-transparent via-blue-500/20 to-transparent backdrop-blur-sm sm:bottom-34" />
 

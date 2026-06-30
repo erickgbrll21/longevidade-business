@@ -54,7 +54,7 @@ const navLinks = [
   { label: 'Saúde e bem-estar', href: '/saude' },
   { label: 'RH e pessoas', href: '/rh' },
   { label: 'Tecnologia', href: '/ti' },
-  { label: 'Finanças', href: '/financas' },
+  { label: 'Proteção ao Negócio', href: '/financas' },
   { label: 'Educação', href: '/educacao' },
   { label: 'ESG', href: '/esg' },
   { label: 'Ecossistema', href: '/#ecossistema' },
@@ -76,14 +76,6 @@ export default function SiteFooter() {
       brandDescription="Hub estratégico de soluções corporativas."
       socialLinks={socialLinks}
       navLinks={navLinks}
-      brandIcon={
-        <img
-          src="/assets/hero-diamond-transparent.png"
-          alt=""
-          className="h-full w-full object-contain object-center"
-          draggable={false}
-        />
-      }
     />
   )
 }

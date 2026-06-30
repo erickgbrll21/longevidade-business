@@ -6,7 +6,7 @@ const links = [
   { label: 'Saúde', to: '/saude' },
   { label: 'RH', to: '/rh' },
   { label: 'TI', to: '/ti' },
-  { label: 'Finanças', to: '/financas' },
+  { label: 'Proteção ao Negócio', to: '/financas' },
   { label: 'Educação', to: '/educacao' },
   { label: 'ESG', to: '/esg' },
   { label: 'Ecossistema', to: '/#ecossistema' },

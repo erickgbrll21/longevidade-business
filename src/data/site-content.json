@@ -74,13 +74,13 @@
       },
       {
         "slug": "financas",
-        "title": "Finanças corporativas",
-        "description": "Capital de giro, crédito estruturado, antecipação salarial, seguros corporativos e gestão financeira.",
+        "title": "Proteção ao Negócio",
+        "description": "Soluções completas para proteger pessoas, patrimônio, operações e riscos financeiros da empresa.",
         "chips": [
-          "Capital de giro",
-          "Crédito",
-          "Antecipação",
-          "Seguros"
+          "Pessoas",
+          "Patrimônio",
+          "Operações",
+          "Riscos financeiros"
         ]
       },
       {
@@ -299,54 +299,78 @@
       ],
       "groups": [
         {
-          "title": "Departamento Pessoal",
-          "subtitle": "Rotinas de DP automatizadas e em conformidade",
+          "title": "Folha de Pagamento e DP",
+          "subtitle": "Folha integrada ao ERP, com conformidade total",
           "alt": false,
           "cards": [
             {
               "title": "Folha de Pagamento",
               "items": [
-                "Processamento",
-                "Gestão de encargos",
-                "Conformidade"
+                "Integração nativa ao ERP",
+                "Cálculos por centro de custo",
+                "Automação de rotinas críticas"
               ]
             },
             {
-              "title": "Gestão de Benefícios",
+              "title": "Conformidade Legal",
               "items": [
-                "Administração",
-                "Integração"
+                "eSocial",
+                "FGTS e INSS",
+                "Obrigações acessórias"
               ]
             },
             {
-              "title": "Férias e Afastamentos",
+              "title": "Gestão de Encargos",
               "items": [
-                "Gestão de férias",
-                "Afastamentos",
-                "Documentação"
+                "Tributos",
+                "Provisões",
+                "Fechamento"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Recrutamento e Gestão de Talentos",
+          "subtitle": "Atração, seleção e desenvolvimento com IA e ciência de dados",
+          "alt": true,
+          "cards": [
+            {
+              "title": "Recrutamento e Seleção",
+              "items": [
+                "Ciência de dados",
+                "Avaliação de fit cultural",
+                "Triagem com IA"
               ]
             },
             {
-              "title": "eSocial",
+              "title": "Gestão de Desempenho",
               "items": [
-                "Envio",
-                "Conformidade",
-                "Automação"
+                "Avaliações",
+                "PDI e metas",
+                "Performance com dados"
+              ]
+            },
+            {
+              "title": "Engajamento e Retenção",
+              "items": [
+                "Redução de turnover",
+                "Análise preditiva",
+                "Experiência do colaborador"
               ]
             }
           ]
         },
         {
           "title": "Controle de Jornada",
-          "subtitle": "Ponto, escalas e banco de horas",
-          "alt": true,
+          "subtitle": "Ponto, banco de horas e atestados",
+          "alt": false,
           "cards": [
             {
               "title": "Controle de Ponto",
               "items": [
+                "Ponto eletrônico",
                 "Registro digital",
-                "Biometria",
-                "App"
+                "100% web e mobile"
               ]
             },
             {
@@ -357,168 +381,100 @@
               ]
             },
             {
-              "title": "Escalas",
+              "title": "Atestados e Ocorrências",
               "items": [
-                "Montagem",
-                "Gestão de presença"
+                "Gestão digital",
+                "Conformidade"
               ]
             }
           ]
         },
         {
-          "title": "Recrutamento e Seleção",
-          "subtitle": "Atração e triagem inteligente de talentos",
-          "alt": false,
-          "cards": [
-            {
-              "title": "ATS",
-              "items": [
-                "Gestão de vagas",
-                "Pipeline"
-              ]
-            },
-            {
-              "title": "Divulgação de Vagas",
-              "items": [
-                "Multiplataforma",
-                "Banco de talentos"
-              ]
-            },
-            {
-              "title": "Triagem Inteligente",
-              "items": [
-                "IA",
-                "Match de perfil"
-              ]
-            },
-            {
-              "title": "Recrutamento Digital",
-              "items": [
-                "Online",
-                "Remoto"
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Admissão Digital",
-          "subtitle": "Onboarding sem papel",
+          "title": "Admissão Digital e SST",
+          "subtitle": "Onboarding sem papel e saúde ocupacional",
           "alt": true,
           "cards": [
+            {
+              "title": "Admissão Digital",
+              "items": [
+                "Sem papel",
+                "Fluxos seguros",
+                "Assinatura eletrônica"
+              ]
+            },
+            {
+              "title": "Saúde e Segurança (SST)",
+              "items": [
+                "Saúde ocupacional",
+                "Conformidade",
+                "Gestão integrada"
+              ]
+            },
             {
               "title": "Onboarding",
               "items": [
-                "Fluxos automatizados"
-              ]
-            },
-            {
-              "title": "Assinatura Eletrônica",
-              "items": [
-                "Documentos",
-                "Validade jurídica"
-              ]
-            },
-            {
-              "title": "Gestão de Documentos",
-              "items": [
-                "Digital",
-                "Centralizada"
+                "Experiência do novo colaborador",
+                "Documentação centralizada"
               ]
             }
           ]
         },
         {
-          "title": "Gestão de Desempenho",
-          "subtitle": "Avaliações, metas e desenvolvimento",
+          "title": "Aprendizagem Corporativa",
+          "subtitle": "Treinamento e desenvolvimento com dados",
           "alt": false,
           "cards": [
             {
-              "title": "Avaliações",
+              "title": "Plataforma de Treinamentos",
               "items": [
-                "360°",
-                "Por competência"
+                "Centralização",
+                "Trilhas de aprendizagem",
+                "Certificações"
               ]
             },
             {
-              "title": "PDI",
+              "title": "Desenvolvimento de Pessoas",
               "items": [
-                "Planos de desenvolvimento"
-              ]
-            },
-            {
-              "title": "Metas e OKRs",
-              "items": [
-                "Definição",
-                "Acompanhamento"
-              ]
-            },
-            {
-              "title": "Feedback Contínuo",
-              "items": [
-                "Cultura",
-                "Registro"
+                "Performance com dados",
+                "Automação",
+                "Capacitação contínua"
               ]
             }
           ]
         },
         {
-          "title": "People Analytics",
-          "subtitle": "Indicadores e dashboards de RH",
+          "title": "People Analytics e Integração",
+          "subtitle": "Dados, insights e tudo conectado ao ERP",
           "alt": true,
           "cards": [
             {
-              "title": "Indicadores de RH",
+              "title": "People Analytics",
               "items": [
-                "Turnover",
-                "Absenteísmo"
-              ]
-            },
-            {
-              "title": "Produtividade",
-              "items": [
-                "Métricas",
-                "Análise"
+                "Base centralizada",
+                "Análises avançadas",
+                "Insights de performance"
               ]
             },
             {
               "title": "Dashboards Executivos",
               "items": [
-                "Visão gerencial",
-                "BI"
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Hub de Sistemas",
-          "subtitle": "Login único e integração de plataformas",
-          "alt": false,
-          "cards": [
-            {
-              "title": "Single Sign-On",
-              "items": [
-                "Login único",
-                "SSO"
+                "Indicadores de RH",
+                "Decisões estratégicas",
+                "Tempo real"
               ]
             },
             {
-              "title": "Gestão de Senhas",
+              "title": "Integração Total ao ERP",
               "items": [
-                "Cofre",
-                "Segurança"
-              ]
-            },
-            {
-              "title": "Portal do Colaborador",
-              "items": [
-                "Acesso único",
-                "Autoatendimento"
+                "Folha, ponto e talentos",
+                "Ecossistema único",
+                "Pagamentos corporativos"
               ]
             }
           ]
         }
       ],
-      "modelStrip": "Departamento Pessoal",
+      "modelStrip": "Folha de Pagamento e DP",
       "ctaTitle": "Toda a jornada do colaborador, integrada.",
       "ctaDescription": "Reunimos plataformas e fornecedores de RH em um único hub, com login único e integração entre sistemas. Você compara, escolhe e implementa com apoio especializado — pagando R$ 0 por isso."
     },
@@ -699,14 +655,14 @@
     {
       "slug": "financas",
       "eyebrow": "Vamos começar",
-      "titleHtml": "Finanças<br><span class=\"grad-text-light\">corporativas.</span>",
-      "heroDescription": "Capital de giro, crédito estruturado, seguros e bem-estar financeiro ao colaborador. Conectamos sua empresa às melhores soluções financeiras do mercado — sem custo de intermediação.",
-      "introTitle": "Fôlego financeiro para crescer.",
-      "introDescription": "Reunimos as principais soluções de crédito, seguros e gestão financeira em um só interlocutor. Você acessa condições competitivas com apoio na estruturação — pagando R$ 0 pela nossa consultoria.",
+      "titleHtml": "Proteção ao<br><span class=\"grad-text-light\">Negócio.</span>",
+      "heroDescription": "Soluções completas para proteger pessoas, patrimônio, operações e riscos financeiros da empresa.",
+      "introTitle": "Proteção completa para o seu negócio.",
+      "introDescription": "Reunimos seguros corporativos, garantias e soluções de proteção patrimonial em um único interlocutor. Você acessa as melhores condições com apoio na estruturação — pagando R$ 0 pela nossa consultoria.",
       "stats": [
         {
-          "value": "15+",
-          "label": "soluções financeiras"
+          "value": "19+",
+          "label": "soluções de proteção"
         },
         {
           "value": "100%",
@@ -719,131 +675,106 @@
       ],
       "groups": [
         {
-          "title": "Crédito Empresarial",
-          "subtitle": "Capital para operar e expandir",
+          "title": "Proteção das Pessoas",
+          "subtitle": "Coberturas para colaboradores e lideranças",
           "alt": false,
           "cards": [
             {
-              "title": "Capital de Giro",
-              "items": [
-                "Liquidez",
-                "Operação"
-              ]
+              "title": "Seguro de Vida em Grupo",
+              "items": []
             },
             {
-              "title": "Crédito Estruturado",
-              "items": [
-                "Sob medida"
-              ]
+              "title": "Planos de Saúde Empresariais",
+              "items": []
             },
             {
-              "title": "Linhas de Financiamento",
-              "items": [
-                "Investimento"
-              ]
+              "title": "Planos Odontológicos",
+              "items": []
             },
             {
-              "title": "Crédito para Expansão",
-              "items": [
-                "Crescimento"
-              ]
+              "title": "Previdência Privada Empresarial",
+              "items": []
+            },
+            {
+              "title": "Sucessão Empresarial por meio do Seguro de Vida",
+              "items": []
+            },
+            {
+              "title": "Seguro de Pessoa-Chave (Key Person)",
+              "items": []
             }
           ]
         },
         {
-          "title": "Gestão Financeira",
-          "subtitle": "Diagnóstico e planejamento",
+          "title": "Proteção do Negócio",
+          "subtitle": "Patrimônio, operações e responsabilidades corporativas",
           "alt": true,
           "cards": [
             {
-              "title": "Diagnóstico Financeiro",
-              "items": [
-                "Análise",
-                "Saúde financeira"
-              ]
+              "title": "Responsabilidade Civil Empresarial",
+              "items": []
             },
             {
-              "title": "Planejamento Financeiro",
-              "items": [
-                "Projeções"
-              ]
+              "title": "Responsabilidade Civil para Administradores (D&O – Directors & Officers)",
+              "items": []
             },
             {
-              "title": "Fluxo de Caixa",
-              "items": [
-                "Estruturação"
-              ]
+              "title": "Seguro Cyber",
+              "items": []
             },
             {
-              "title": "Gestão de Indicadores",
-              "items": [
-                "KPIs",
-                "Dashboards"
-              ]
+              "title": "Seguro de Riscos de Engenharia",
+              "items": []
+            },
+            {
+              "title": "Seguro de Riscos de Execução",
+              "items": []
+            },
+            {
+              "title": "Seguro de Equipamentos",
+              "items": []
+            },
+            {
+              "title": "Seguro de Frotas Leves e Pesadas",
+              "items": []
+            },
+            {
+              "title": "Seguro de Cargas, Imp/Exp",
+              "items": []
             }
           ]
         },
         {
-          "title": "Bem-Estar Financeiro",
-          "subtitle": "Soluções para o colaborador",
+          "title": "Proteção Financeira",
+          "subtitle": "Garantias e gestão de riscos financeiros",
           "alt": false,
           "cards": [
             {
-              "title": "Antecipação Salarial sem Juros",
-              "items": [
-                "Acesso ao salário"
-              ]
+              "title": "Seguro Garantia para Obrigações Contratuais",
+              "items": []
             },
             {
-              "title": "Educação Financeira",
-              "items": [
-                "Capacitação"
-              ]
+              "title": "Performance Bond",
+              "items": []
             },
             {
-              "title": "Soluções de Bem-Estar",
-              "items": [
-                "Saúde financeira"
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Seguros Corporativos",
-          "subtitle": "Proteção patrimonial e de pessoas",
-          "alt": true,
-          "cards": [
-            {
-              "title": "Seguro Empresarial",
-              "items": [
-                "Patrimônio"
-              ]
+              "title": "Seguro Garantia Judicial",
+              "items": []
             },
             {
-              "title": "Seguro Saúde",
-              "items": [
-                "Colaboradores"
-              ]
+              "title": "Seguro Prestamista",
+              "items": []
             },
             {
-              "title": "Seguro Vida",
-              "items": [
-                "Proteção"
-              ]
-            },
-            {
-              "title": "Programas de Proteção",
-              "items": [
-                "Benefícios",
-                "Financeiro"
-              ]
+              "title": "Seguro de Crédito e Análise de Crédito",
+              "items": []
             }
           ]
         }
       ],
-      "modelStrip": "Crédito Empresarial",
-      "ctaTitle": "Fôlego financeiro para crescer.",
-      "ctaDescription": "Reunimos as principais soluções de crédito, seguros e gestão financeira em um só interlocutor. Você acessa condições competitivas com apoio na estruturação — pagando R$ 0 pela nossa consultoria."
+      "modelStrip": "Proteção ao Negócio",
+      "ctaTitle": "Proteção completa para o seu negócio.",
+      "ctaDescription": "Reunimos seguros corporativos, garantias e soluções de proteção patrimonial em um único interlocutor. Você acessa as melhores condições com apoio na estruturação — pagando R$ 0 pela nossa consultoria."
     },
     {
       "slug": "educacao",
