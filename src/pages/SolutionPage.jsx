@@ -39,6 +39,16 @@ function CardItem({ item }) {
   )
 }
 
+const heroIcons = {
+  beneficios: '/assets/color.png',
+  saude: '/assets/3dicons-heart-front-color.png',
+  rh: '/assets/rh-icon.png',
+  financas: '/assets/3dicons-shield-front-color.png',
+  ti: '/assets/3dicons-computer-front-color.png',
+  educacao: '/assets/3dicons-notebook-dynamic-color.png',
+  esg: '/assets/grafic.png',
+}
+
 export default function SolutionPage({ slug }) {
   const data = siteContent.solutions.find((s) => s.slug === slug)
 
@@ -47,7 +57,7 @@ export default function SolutionPage({ slug }) {
   return (
     <>
       <header className="relative overflow-hidden bg-gradient-to-br from-ink to-ink-2 px-0 pb-14 pt-[120px] text-white md:pb-20 md:pt-[140px]">
-        <div className="wrap relative z-[2] grid items-center gap-12 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="wrap relative z-[2] grid min-w-0 items-center gap-8 sm:gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-12">
           <div>
             <div className="reveal mb-4 text-sm text-white/60">
               <Link to="/" className="hover:text-white">
@@ -70,9 +80,20 @@ export default function SolutionPage({ slug }) {
               </Button>
             </div>
           </div>
-          <div className="reveal d1 hidden justify-center lg:flex">
-            <div className="relative flex h-[200px] w-[200px] items-center justify-center rounded-[46px] border border-blue/30 bg-gradient-to-br from-blue/20 to-blue-deep/10 text-blue-pale before:absolute before:-inset-3.5 before:rounded-[54px] before:border before:border-dashed before:border-blue/25">
-              <FrenteIcon slug={slug} className="h-[90px] w-[90px]" />
+          <div className="reveal d1 flex justify-center px-2 sm:px-0">
+            <div className="relative flex h-[clamp(132px,34vw,200px)] w-[clamp(132px,34vw,200px)] shrink-0 items-center justify-center rounded-[clamp(28px,8vw,46px)] border border-blue/30 bg-gradient-to-br from-blue/20 to-blue-deep/10 before:absolute before:-inset-[clamp(8px,2.5vw,14px)] before:rounded-[clamp(34px,9vw,54px)] before:border before:border-dashed before:border-blue/25">
+              {heroIcons[slug] ? (
+                <img
+                  src={heroIcons[slug]}
+                  alt=""
+                  className="h-[clamp(88px,24vw,130px)] w-[clamp(88px,24vw,130px)] max-w-full object-contain drop-shadow-[0_12px_32px_rgba(0,0,0,0.35)]"
+                />
+              ) : (
+                <FrenteIcon
+                  slug={slug}
+                  className="h-[clamp(70px,20vw,90px)] w-[clamp(70px,20vw,90px)] text-blue-pale"
+                />
+              )}
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ export default function Nav() {
     <div
       id="nav-shell"
       ref={shellRef}
-      className="pointer-events-none fixed inset-x-0 top-0 z-[100] px-4 pt-[max(1rem,env(safe-area-inset-top))] md:px-6 md:pt-5"
+      className="pointer-events-none fixed inset-x-0 top-0 z-[110] px-4 pt-[max(1rem,env(safe-area-inset-top))] md:px-6 md:pt-5"
     >
       <div className="pointer-events-auto relative mx-auto max-w-[1200px]">
         <nav
