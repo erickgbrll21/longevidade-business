@@ -148,35 +148,6 @@
     --hero-cy: 50%;
   }
 
-  .hero-cursor-glow {
-    opacity: 0;
-    transition: opacity 0.35s ease;
-    background: radial-gradient(
-      520px circle at var(--hero-cx) var(--hero-cy),
-      rgba(60, 176, 239, 0.2) 0%,
-      rgba(2, 136, 209, 0.1) 28%,
-      rgba(21, 96, 189, 0.04) 50%,
-      transparent 72%
-    );
-  }
-
-  .hero-cursor-spot {
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    background: radial-gradient(
-      140px circle at var(--hero-cx) var(--hero-cy),
-      rgba(124, 196, 239, 0.45) 0%,
-      rgba(2, 136, 209, 0.2) 40%,
-      transparent 70%
-    );
-    mix-blend-mode: screen;
-  }
-
-  .hero-interactive[data-cursor='on'] .hero-cursor-glow,
-  .hero-interactive[data-cursor='on'] .hero-cursor-spot {
-    opacity: 1;
-  }
-
   .diamond-cursor-near .diamond-cursor-shine {
     opacity: 1;
     background: radial-gradient(
@@ -217,11 +188,15 @@
   }
 
   .animate-marquee {
-    animation: marquee 38s linear infinite;
+    animation: marquee var(--duration, 38s) linear infinite;
   }
 
   .animate-marquee-reverse {
-    animation: marquee-reverse 42s linear infinite;
+    animation: marquee-reverse var(--duration, 42s) linear infinite;
+  }
+
+  .animate-marquee-vertical {
+    animation: marquee-vertical var(--duration, 40s) linear infinite;
   }
 
   .animate-float-icon {
@@ -246,6 +221,16 @@
 
   to {
     transform: translateX(0);
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
   }
 }
 

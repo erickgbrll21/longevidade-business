@@ -13,6 +13,8 @@ import LightPillar from '../components/LightPillar/LightPillar'
 import AnimatedBeamDemo from '../components/AnimatedBeamDemo'
 import FrenteIcon from '../components/FrenteIcon'
 import ContactForm from '../components/ContactForm'
+import ConcorreAICard from '../components/ConcorreAICard'
+import TestimonialsMarquee3D from '../components/TestimonialsMarquee3D'
 
 const contactItems = [
   {
@@ -310,30 +312,7 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <div className="reveal d1 relative overflow-hidden rounded-3xl bg-gradient-to-br from-ink to-ink-2 p-10 text-white shadow-[var(--shadow-brand)]">
-              <div className="pointer-events-none absolute -right-[120px] -top-[160px] h-[380px] w-[380px] rounded-full bg-[radial-gradient(circle,rgba(2,136,209,0.32),transparent_65%)]" />
-              <div className="relative z-[1]">
-                <span className="mb-5 inline-flex rounded-full border border-blue/35 bg-blue/20 px-3.5 py-1.5 text-xs font-extrabold uppercase tracking-[0.1em] text-blue-pale">
-                  {sections.mercadoPublico.card.badge}
-                </span>
-                <h3 className="mb-4 text-[28px] font-extrabold tracking-[-0.025em]">
-                  {sections.mercadoPublico.card.title}
-                </h3>
-                <p className="mb-6 text-[15px] leading-relaxed text-white/75">
-                  {sections.mercadoPublico.card.text}
-                </p>
-                <ul className="mb-8 space-y-2.5">
-                  {sections.mercadoPublico.card.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2 text-sm text-white/85">
-                      <span className="text-blue-pale">✓</span> {f}
-                    </li>
-                  ))}
-                </ul>
-                <Button to="/#diagnostico" className="w-full justify-center">
-                  Quero avaliar meu potencial →
-                </Button>
-              </div>
-            </div>
+            <ConcorreAICard card={sections.mercadoPublico.card} />
           </div>
         </div>
       </section>
@@ -369,7 +348,7 @@ export default function HomePage() {
       <section id="depoimentos" className="relative overflow-hidden bg-gradient-to-br from-ink to-ink-2 py-20 text-white md:py-[100px]">
         <BgGlows two />
         <div className="wrap relative z-[2]">
-          <div className="reveal mb-12 max-w-[720px]">
+          <div className="reveal mx-auto mb-12 max-w-[720px] text-center">
             <span className="eyebrow light">Quem confia na Longevidade</span>
             <h2 className="mb-4 text-[clamp(28px,4vw,44px)] font-bold tracking-[-0.03em]">
               O que dizem <span className="grad-text-light">nossos clientes.</span>
@@ -378,26 +357,9 @@ export default function HomePage() {
               Empresas que centralizaram suas soluções e ganharam tempo, economia e segurança com um único parceiro.
             </p>
           </div>
-          <div className="grid gap-5 lg:grid-cols-3">
-            {sections.depoimentos.map((t, i) => (
-              <div
-                key={t.name}
-                className={`reveal ${i === 1 ? 'd1' : i === 2 ? 'd2' : ''} rounded-3xl border border-white/10 bg-white/[0.05] p-7`}
-              >
-                <div className="mb-4 text-blue-pale">★★★★★</div>
-                <p className="mb-6 text-[15px] leading-relaxed text-white/85">&ldquo;{t.quote}&rdquo;</p>
-                <div className="flex items-center gap-3">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-blue to-blue-deep text-sm font-bold">
-                    {t.initials}
-                  </div>
-                  <div>
-                    <div className="font-bold">{t.name}</div>
-                    <div className="text-sm text-white/65">{t.role}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        </div>
+        <div className="relative z-[2] w-full">
+          <TestimonialsMarquee3D testimonials={sections.depoimentos} />
         </div>
       </section>
 

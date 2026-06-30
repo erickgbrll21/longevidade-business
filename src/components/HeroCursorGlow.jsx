@@ -49,8 +49,6 @@ export default function HeroCursorGlow({ children, className = '', id }) {
         }}
         className={`hero-interactive ${className}`}
       >
-        <div className="hero-cursor-glow pointer-events-none absolute inset-0 z-[1]" aria-hidden="true" />
-        <div className="hero-cursor-spot pointer-events-none absolute inset-0 z-[1]" aria-hidden="true" />
         {children}
       </header>
     </HeroCursorContext.Provider>
