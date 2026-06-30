@@ -31,6 +31,22 @@ export function useReveal() {
 }
 
 
+export function useScrollToTop() {
+  const location = useLocation()
+
+  useEffect(() => {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual'
+    }
+  }, [])
+
+  useEffect(() => {
+    if (location.hash) return
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [location.pathname, location.hash])
+}
+
+
 export function useHashScroll() {
   const location = useLocation()
 

@@ -1,12 +1,13 @@
 import { Outlet, useLocation } from 'react-router-dom'
 import Nav from './Nav'
 import Footer from './Footer'
-import { useReveal, useHashScroll } from '../hooks/useReveal'
+import { useReveal, useHashScroll, useScrollToTop } from '../hooks/useReveal'
 
 export default function Layout() {
   const location = useLocation()
 
   useReveal()
+  useScrollToTop()
   useHashScroll()
 
   useEffectTitle(location.pathname)

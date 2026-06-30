@@ -3,6 +3,7 @@ import siteContent from '../data/site-content.json'
 import Button from '../components/Button'
 import HtmlTitle from '../components/HtmlTitle'
 import FrenteIcon from '../components/FrenteIcon'
+import { frenteIcons } from '../data/frenteIcons'
 
 const labels = {
   beneficios: 'Benefícios',
@@ -39,16 +40,6 @@ function CardItem({ item }) {
   )
 }
 
-const heroIcons = {
-  beneficios: '/assets/color.png',
-  saude: '/assets/3dicons-heart-front-color.png',
-  rh: '/assets/rh-icon.png',
-  financas: '/assets/3dicons-shield-front-color.png',
-  ti: '/assets/3dicons-computer-front-color.png',
-  educacao: '/assets/3dicons-notebook-dynamic-color.png',
-  esg: '/assets/grafic.png',
-}
-
 export default function SolutionPage({ slug }) {
   const data = siteContent.solutions.find((s) => s.slug === slug)
 
@@ -82,9 +73,9 @@ export default function SolutionPage({ slug }) {
           </div>
           <div className="reveal d1 flex justify-center px-2 sm:px-0">
             <div className="relative flex h-[clamp(132px,34vw,200px)] w-[clamp(132px,34vw,200px)] shrink-0 items-center justify-center rounded-[clamp(28px,8vw,46px)] border border-blue/30 bg-gradient-to-br from-blue/20 to-blue-deep/10 before:absolute before:-inset-[clamp(8px,2.5vw,14px)] before:rounded-[clamp(34px,9vw,54px)] before:border before:border-dashed before:border-blue/25">
-              {heroIcons[slug] ? (
+              {frenteIcons[slug] ? (
                 <img
-                  src={heroIcons[slug]}
+                  src={frenteIcons[slug]}
                   alt=""
                   className="h-[clamp(88px,24vw,130px)] w-[clamp(88px,24vw,130px)] max-w-full object-contain drop-shadow-[0_12px_32px_rgba(0,0,0,0.35)]"
                 />

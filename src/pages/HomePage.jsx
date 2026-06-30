@@ -11,7 +11,7 @@ import HeroDiamond from '../components/HeroDiamond'
 import GradualBlur from '../components/GradualBlur/GradualBlur'
 import LightPillar from '../components/LightPillar/LightPillar'
 import AnimatedBeamDemo from '../components/AnimatedBeamDemo'
-import FrenteIcon from '../components/FrenteIcon'
+import { frenteIcons } from '../data/frenteIcons'
 import ContactForm from '../components/ContactForm'
 import ConcorreAICard from '../components/ConcorreAICard'
 import DemandaNoteCard from '../components/DemandaNoteCard'
@@ -170,8 +170,14 @@ export default function HomePage() {
                 to={`/${frente.slug}`}
                 className="card-lift group relative block overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white p-5 shadow-[var(--shadow-sm)] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-blue before:absolute before:inset-x-0 before:top-0 before:h-[3px] before:origin-left before:scale-x-0 before:bg-gradient-to-br before:from-blue before:to-blue-deep before:transition-transform group-hover:before:scale-x-100 group-active:before:scale-x-100 sm:p-7"
               >
-                <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue/10 to-blue-deep/10 text-blue">
-                  <FrenteIcon slug={frente.slug} />
+                <div className="mb-5 flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue/10 to-blue-deep/10 sm:h-[72px] sm:w-[72px]">
+                  {frenteIcons[frente.slug] ? (
+                    <img
+                      src={frenteIcons[frente.slug]}
+                      alt=""
+                      className="h-[52px] w-[52px] object-contain sm:h-[60px] sm:w-[60px]"
+                    />
+                  ) : null}
                 </div>
                 <h3 className="mb-2.5 text-xl font-bold tracking-[-0.02em]">{frente.title}</h3>
                 <p className="mb-4 text-sm leading-relaxed text-gray-brand">{frente.description}</p>
