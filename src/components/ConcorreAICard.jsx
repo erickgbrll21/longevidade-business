@@ -11,11 +11,11 @@ export default function ConcorreAICard({ card }) {
         gradientFrom="#7cc4ef"
         gradientTo="#0288d1"
         glowOpacity={0.55}
-        glowSize={360}
-        glowBlur={50}
+        glowSize={320}
+        glowBlur={40}
         orbBlendMode="multiply"
         innerClassName="bg-white"
-        className="rounded-3xl p-10 text-ink"
+        className="rounded-3xl p-6 text-ink sm:p-8 md:p-10"
       >
         <div className="pointer-events-none absolute -right-[100px] -top-[140px] h-[320px] w-[320px] rounded-full bg-[radial-gradient(circle,rgba(2,136,209,0.12),transparent_65%)]" />
         <div className="relative">

@@ -46,7 +46,7 @@ export default function SolutionPage({ slug }) {
 
   return (
     <>
-      <header className="relative overflow-hidden bg-gradient-to-br from-ink to-ink-2 px-0 pb-20 pt-[140px] text-white">
+      <header className="relative overflow-hidden bg-gradient-to-br from-ink to-ink-2 px-0 pb-14 pt-[120px] text-white md:pb-20 md:pt-[140px]">
         <div className="wrap relative z-[2] grid items-center gap-12 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
             <div className="reveal mb-4 text-sm text-white/60">
@@ -78,7 +78,7 @@ export default function SolutionPage({ slug }) {
         </div>
       </header>
 
-      <section className="bg-bg-soft py-[70px]">
+      <section className="bg-bg-soft py-14 md:py-[70px]">
         <div className="wrap grid items-center gap-12 lg:grid-cols-[1.3fr_0.7fr]">
           <div className="reveal">
             <h2 className="mb-4 text-[clamp(26px,3vw,38px)] font-bold tracking-[-0.025em]">{data.introTitle}</h2>
@@ -90,7 +90,7 @@ export default function SolutionPage({ slug }) {
                 key={stat.label}
                 className="rounded-2xl border border-[var(--color-line)] bg-white px-6 py-5"
               >
-                <div className="text-[30px] font-extrabold leading-none tracking-[-0.02em] text-blue">
+                <div className="text-[clamp(24px,5vw,30px)] font-extrabold leading-none tracking-[-0.02em] text-blue">
                   {stat.value}
                 </div>
                 <div className="mt-1.5 text-sm font-semibold text-gray-brand">{stat.label}</div>
@@ -100,30 +100,30 @@ export default function SolutionPage({ slug }) {
         </div>
       </section>
 
-      <section id="produtos" className="py-[100px]">
+      <section id="produtos" className="py-14 md:py-[100px]">
         <div className="wrap">
           {data.groups.map((group, gi) => (
             <div
               key={`${group.title}-${gi}`}
-              className={`reveal ${gi === 1 ? 'd1' : ''} mb-16 last:mb-0 ${
-                group.alt ? '-mx-6 bg-bg-soft px-6 py-16 md:-mx-[100vw] md:px-[100vw]' : ''
+              className={`reveal ${gi === 1 ? 'd1' : ''} mb-12 last:mb-0 md:mb-16 ${
+                group.alt ? '-mx-6 bg-bg-soft px-6 py-12 md:-mx-7 md:px-7 md:py-16' : ''
               }`}
             >
-              <div className={group.alt ? 'wrap' : ''}>
-                <div className="mb-8 flex items-center gap-4">
-                  <div className="flex h-[58px] w-[58px] shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue to-blue-deep text-white">
-                    <FrenteIcon slug={slug} className="h-7 w-7" />
+              <div className={group.alt ? 'wrap !px-0' : ''}>
+                <div className="mb-6 flex items-start gap-3 sm:mb-8 sm:items-center sm:gap-4">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue to-blue-deep text-white sm:h-[58px] sm:w-[58px]">
+                    <FrenteIcon slug={slug} className="h-6 w-6 sm:h-7 sm:w-7" />
                   </div>
-                  <div>
-                    <h3 className="text-[26px] font-extrabold tracking-[-0.02em]">{group.title}</h3>
-                    <p className="text-[15px] text-gray-brand">{group.subtitle}</p>
+                  <div className="min-w-0">
+                    <h3 className="text-[clamp(20px,4vw,26px)] font-extrabold tracking-[-0.02em]">{group.title}</h3>
+                    <p className="text-sm text-gray-brand sm:text-[15px]">{group.subtitle}</p>
                   </div>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                   {group.cards.map((card) => (
                     <div
                       key={card.title}
-                      className="rounded-2xl border border-[var(--color-line)] bg-white p-6 shadow-[var(--shadow-sm)] transition-all hover:-translate-y-1 hover:border-transparent hover:shadow-[var(--shadow-brand)]"
+                      className="card-lift rounded-2xl border border-[var(--color-line)] bg-white p-5 shadow-[var(--shadow-sm)] sm:p-6"
                     >
                       <h4 className="mb-2.5 flex items-center gap-2 text-[17px] font-bold">
                         <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-br from-blue to-blue-deep" />
@@ -143,7 +143,7 @@ export default function SolutionPage({ slug }) {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-blue to-blue-deep py-16 text-white">
+      <section className="bg-gradient-to-br from-blue to-blue-deep py-12 text-white md:py-16">
         <div className="wrap flex flex-wrap items-center justify-between gap-8">
           <h3 className="max-w-[640px] text-[clamp(24px,3vw,34px)] font-extrabold tracking-[-0.025em]">
             {data.modelStrip} — com condição de canal e suporte permanente, sem custo para você.
@@ -157,7 +157,7 @@ export default function SolutionPage({ slug }) {
         </div>
       </section>
 
-      <section className="bg-white py-[100px] text-center">
+      <section className="bg-white py-14 text-center md:py-[100px]">
         <div className="wrap">
           <h2 className="reveal mb-4 text-[clamp(28px,3.6vw,44px)] font-extrabold tracking-[-0.03em]">
             {data.ctaTitle}

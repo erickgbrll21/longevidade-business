@@ -70,12 +70,20 @@
     @apply -translate-y-0.5 shadow-[0_20px_48px_-16px_rgba(2,136,209,0.55)];
   }
 
+  .btn-primary:active {
+    @apply translate-y-0 shadow-[var(--shadow-blue)];
+  }
+
   .btn-ghost {
     @apply border-[1.5px] border-white/25 bg-white/10 text-white;
   }
 
   .btn-ghost:hover {
     @apply -translate-y-0.5 bg-white/15;
+  }
+
+  .btn-ghost:active {
+    @apply translate-y-0 bg-white/20;
   }
 
   .btn-dark {
@@ -202,6 +210,20 @@
   .animate-float-icon {
     animation: float-icon 5s ease-in-out infinite;
   }
+
+  .card-lift {
+    @apply transition-all duration-200;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .card-lift:hover {
+      @apply -translate-y-1 border-transparent shadow-[var(--shadow-brand)];
+    }
+  }
+
+  .card-lift:active {
+    @apply -translate-y-0.5 shadow-[var(--shadow-brand)];
+  }
 }
 
 @keyframes marquee {
@@ -309,6 +331,7 @@
 
   .animate-marquee,
   .animate-marquee-reverse,
+  .animate-marquee-vertical,
   .animate-float-icon,
   .modem-footer-bg,
   .modem-footer-badge {

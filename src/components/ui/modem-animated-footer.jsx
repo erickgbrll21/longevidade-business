@@ -50,7 +50,7 @@ export function Footer({
   return (
     <section className={`relative mt-0 max-h-fit ${className}`}>
       <footer className="relative z-[101] mt-0 max-h-fit overflow-hidden border-t border-white/10 bg-gradient-to-br from-ink via-ink-2 to-[#0f2035] text-white">
-        <div className="relative z-30 mx-auto flex h-120 max-w-7xl flex-col justify-between p-4 py-10 sm:h-140 md:h-160">
+        <div className="relative z-30 mx-auto flex min-h-0 max-w-7xl flex-col justify-between p-4 py-8 sm:h-120 sm:py-10 md:h-140 lg:h-160">
           <div className="mb-12 flex w-full flex-col sm:mb-20 md:mb-0">
             <div className="flex w-full flex-col items-center">
               <div className="flex flex-1 flex-col items-center space-y-2">
@@ -84,7 +84,7 @@ export function Footer({
               )}
 
               {navLinks.length > 0 && (
-                <div className="flex max-w-full flex-wrap justify-center gap-4 text-sm font-medium text-neutral-400">
+                <div className="mb-20 flex max-w-full flex-wrap justify-center gap-x-4 gap-y-2 text-sm font-medium text-neutral-400 sm:mb-0">
                   {navLinks.map((link) => (
                     <FooterLink
                       key={`${link.label}-${link.href}`}
@@ -118,7 +118,7 @@ export function Footer({
 
         <div
           aria-hidden="true"
-          className="modem-footer-bg pointer-events-none absolute bottom-40 left-1/2 z-10 w-max max-w-none -translate-x-1/2 whitespace-nowrap bg-linear-to-b from-foreground/20 via-foreground/10 to-transparent bg-clip-text text-[4rem] leading-tight font-extrabold tracking-tighter text-transparent sm:text-[8rem] md:bottom-32 md:text-[10rem] lg:text-[13rem]"
+          className="modem-footer-bg pointer-events-none absolute bottom-20 left-1/2 z-10 w-max max-w-none -translate-x-1/2 whitespace-nowrap bg-linear-to-b from-foreground/20 via-foreground/10 to-transparent bg-clip-text text-[4rem] leading-tight font-extrabold tracking-tighter text-transparent sm:bottom-36 sm:text-[8rem] md:bottom-32 md:text-[10rem] lg:text-[13rem]"
         >
           {displayBackground}
         </div>
@@ -133,7 +133,7 @@ export function Footer({
           </div>
         )}
 
-        <div className="absolute bottom-32 left-1/2 z-25 h-1 w-full -translate-x-1/2 bg-linear-to-r from-transparent via-blue-500/20 to-transparent backdrop-blur-sm sm:bottom-34" />
+        <div className="absolute bottom-12 left-1/2 z-25 h-1 w-full -translate-x-1/2 bg-linear-to-r from-transparent via-blue-500/20 to-transparent backdrop-blur-sm sm:bottom-24 md:bottom-20" />
 
         <div className="absolute bottom-28 z-22 h-24 w-full bg-linear-to-t from-ink via-ink/80 to-ink/40 blur-[1em]" />
       </footer>

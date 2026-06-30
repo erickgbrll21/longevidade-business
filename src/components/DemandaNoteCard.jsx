@@ -9,9 +9,9 @@ export default function DemandaNoteCard({ note }) {
         glowTo="#0288d1"
         gradientFrom="#7cc4ef"
         gradientTo="#0288d1"
-        glowOpacity={0.55}
-        glowSize={360}
-        glowBlur={50}
+        glowOpacity={0.5}
+        glowSize={320}
+        glowBlur={40}
         orbBlendMode="multiply"
         innerClassName="bg-white"
         className="rounded-3xl p-8 md:p-10"

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { motion, useMotionTemplate, useMotionValue, useSpring } from 'motion/react'
 import { cn } from '../../lib/utils'
 
@@ -26,6 +26,19 @@ export function MagicCard(props) {
   const glowSize = isOrbMode(props) ? (props.glowSize ?? 420) : 420
   const glowBlur = isOrbMode(props) ? (props.glowBlur ?? 60) : 60
   const glowOpacity = isOrbMode(props) ? (props.glowOpacity ?? 0.9) : 0.9
+
+  const [compactGlow, setCompactGlow] = useState(false)
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 640px), (pointer: coarse)')
+    const update = () => setCompactGlow(mq.matches)
+    update()
+    mq.addEventListener('change', update)
+    return () => mq.removeEventListener('change', update)
+  }, [])
+
+  const effectiveGlowSize = compactGlow ? Math.min(glowSize, 260) : glowSize
+  const effectiveGlowBlur = compactGlow ? Math.min(glowBlur, 40) : glowBlur
 
   const mouseX = useMotionValue(-gradientSize)
   const mouseY = useMotionValue(-gradientSize)
@@ -147,14 +160,14 @@ export function MagicCard(props) {
           aria-hidden="true"
           className="pointer-events-none absolute z-30"
           style={{
-            width: glowSize,
-            height: glowSize,
+            width: effectiveGlowSize,
+            height: effectiveGlowSize,
             x: orbX,
             y: orbY,
             translateX: '-50%',
             translateY: '-50%',
             borderRadius: 9999,
-            filter: `blur(${glowBlur}px)`,
+            filter: `blur(${effectiveGlowBlur}px)`,
             opacity: orbVisible,
             background: `linear-gradient(${glowAngle}deg, ${glowFrom}, ${glowTo})`,
             mixBlendMode: orbBlendMode,

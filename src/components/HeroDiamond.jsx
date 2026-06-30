@@ -26,16 +26,16 @@ export default function HeroDiamond({ className = '' }) {
   return (
     <div
       ref={wrapRef}
-      className={`group relative flex h-[380px] w-[380px] items-center justify-center ${near ? 'diamond-cursor-near' : ''} ${className}`}
+      className={`group relative mx-auto aspect-square w-full max-w-[min(100%,280px)] sm:max-w-[320px] md:max-w-[380px] ${near ? 'diamond-cursor-near' : ''} ${className}`}
       aria-hidden="true"
     >
       <div className="absolute inset-0 rounded-full border border-blue-pale/20 transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue-pale/35" />
-      <div className="absolute inset-[34px] rounded-full border border-blue-pale/10 transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue/25" />
-      <div className="absolute inset-[68px] rounded-full border border-blue-pale/[0.06] transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue-light/20" />
+      <div className="absolute inset-[9%] rounded-full border border-blue-pale/10 transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue/25" />
+      <div className="absolute inset-[18%] rounded-full border border-blue-pale/[0.06] transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue-light/20" />
 
-      <div className="diamond-stage relative z-[1] flex h-[340px] w-[340px] items-center justify-center">
+      <div className="diamond-stage relative z-[1] mx-auto flex aspect-square w-[89%] items-center justify-center">
         <div className="diamond-cursor-shine pointer-events-none absolute inset-[8%] rounded-full opacity-0 transition-opacity duration-200 [.diamond-cursor-near_&]:opacity-100" />
-        <div className="diamond-float relative flex h-[320px] w-[320px] items-center justify-center">
+        <div className="diamond-float relative flex aspect-square w-[94%] items-center justify-center">
           <img
             src="/assets/hero-diamond.png"
             alt=""

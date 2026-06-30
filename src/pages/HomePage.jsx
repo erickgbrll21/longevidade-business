@@ -92,7 +92,7 @@ export default function HomePage() {
             {home.stats.map((stat) => (
               <div
                 key={stat.label}
-                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition-transform hover:-translate-y-0.5 hover:border-blue-pale/35"
+                className="card-lift group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-4 sm:p-5"
               >
                 <div className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-br from-blue to-blue-deep" />
                 <div className="text-[clamp(22px,2.4vw,32px)] font-bold tabular-nums leading-none tracking-[-0.02em] text-white">
@@ -151,7 +151,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="frentes" className="bg-bg-soft py-20 md:py-[100px]">
+      <section id="frentes" className="bg-bg-soft py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">O que fazemos</span>
@@ -168,7 +168,7 @@ export default function HomePage() {
               <Link
                 key={frente.slug}
                 to={`/${frente.slug}`}
-                className={`reveal ${i % 3 === 1 ? 'd1' : i % 3 === 2 ? 'd2' : ''} group relative block overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white p-7 shadow-[var(--shadow-sm)] transition-all hover:-translate-y-1 hover:border-blue/15 hover:shadow-[var(--shadow-brand)] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-blue before:absolute before:inset-x-0 before:top-0 before:h-[3px] before:origin-left before:scale-x-0 before:bg-gradient-to-br before:from-blue before:to-blue-deep before:transition-transform group-hover:before:scale-x-100`}
+                className="card-lift group relative block overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white p-5 shadow-[var(--shadow-sm)] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-blue before:absolute before:inset-x-0 before:top-0 before:h-[3px] before:origin-left before:scale-x-0 before:bg-gradient-to-br before:from-blue before:to-blue-deep before:transition-transform group-hover:before:scale-x-100 group-active:before:scale-x-100 sm:p-7"
               >
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue/10 to-blue-deep/10 text-blue">
                   <FrenteIcon slug={frente.slug} />
@@ -194,7 +194,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="sob-demanda" className="bg-bg-soft py-20 md:py-[100px]">
+      <section id="sob-demanda" className="bg-bg-soft py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">{sections.demanda.eyebrow}</span>
@@ -218,7 +218,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white py-20 md:py-[100px]">
+      <section className="bg-white py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">Por que a Longevidade</span>
@@ -255,7 +255,7 @@ export default function HomePage() {
             {sections.ecossistema.cards.map((card, i) => (
               <div
                 key={card.title}
-                className={`reveal ${i === 1 ? 'd1' : i === 2 ? 'd2' : ''} rounded-3xl border p-8 transition-transform hover:-translate-y-1.5 ${
+                className={`reveal ${i === 1 ? 'd1' : i === 2 ? 'd2' : ''} card-lift rounded-3xl border p-6 sm:p-8 ${
                   card.lead
                     ? 'border-blue/45 bg-gradient-to-br from-blue/15 to-blue-deep/5'
                     : 'border-blue-pale/15 bg-white/5 hover:bg-white/[0.08]'
@@ -282,7 +282,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="mercado-publico" className="overflow-hidden bg-bg-soft py-20 md:py-[100px]">
+      <section id="mercado-publico" className="overflow-hidden bg-bg-soft py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">{sections.mercadoPublico.eyebrow}</span>
@@ -310,7 +310,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="juridico" className="overflow-hidden bg-bg-soft-2 py-20 md:py-[100px]">
+      <section id="juridico" className="overflow-hidden bg-bg-soft-2 py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal mb-12 max-w-[720px]">
             <span className="eyebrow">{sections.juridico.eyebrow}</span>
@@ -356,9 +356,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="diagnostico" className="bg-white py-20 md:py-[100px]">
+      <section id="diagnostico" className="bg-white py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
-          <div className="reveal relative min-h-[320px] overflow-hidden rounded-3xl bg-gradient-to-br from-blue to-blue-deep p-10 text-white shadow-[var(--shadow-blue)] md:min-h-[360px] md:p-14">
+          <div className="reveal relative min-h-[280px] overflow-hidden rounded-3xl bg-gradient-to-br from-blue to-blue-deep p-6 text-white shadow-[var(--shadow-blue)] sm:min-h-[320px] sm:p-10 md:min-h-[360px] md:p-14">
             <div className="pointer-events-none absolute inset-0" aria-hidden="true">
               <LightPillar
                 topColor="#00bcff"
@@ -395,7 +395,7 @@ export default function HomePage() {
               >
                 Fazer diagnóstico gratuito →
               </Button>
-              <div className="mt-6 flex items-center gap-2 text-sm text-white/85">
+              <div className="mt-6 flex flex-wrap items-center gap-2 text-sm text-white/85">
                 ✓ Sem custo · Sem compromisso · Resposta em até 48h
               </div>
             </div>
@@ -429,7 +429,7 @@ export default function HomePage() {
                         {value}
                       </a>
                     ) : (
-                      <span className="text-ink">{value}</span>
+                      <span className="text-ink break-words">{value}</span>
                     )}
                   </div>
                 </div>
