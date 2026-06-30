@@ -14,6 +14,7 @@ import AnimatedBeamDemo from '../components/AnimatedBeamDemo'
 import FrenteIcon from '../components/FrenteIcon'
 import ContactForm from '../components/ContactForm'
 import ConcorreAICard from '../components/ConcorreAICard'
+import DemandaNoteCard from '../components/DemandaNoteCard'
 import TestimonialsMarquee3D from '../components/TestimonialsMarquee3D'
 
 const contactItems = [
@@ -213,15 +214,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <div className="reveal d1 mt-11 flex flex-col items-start gap-5 rounded-3xl border border-[var(--color-line)] bg-bg-soft p-8 md:flex-row md:items-center">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue to-blue-deep text-white">
-              💡
-            </div>
-            <div>
-              <h4 className="mb-1.5 text-lg font-bold">{sections.demanda.note.title}</h4>
-              <p className="text-[15px] leading-relaxed text-gray-brand">{sections.demanda.note.text}</p>
-            </div>
-          </div>
+          <DemandaNoteCard note={sections.demanda.note} />
         </div>
       </section>
 
