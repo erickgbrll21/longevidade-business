@@ -33,13 +33,13 @@ export default function HeroDiamond({ className = '' }) {
       <div className="absolute inset-[9%] rounded-full border border-blue-pale/10 transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue/25" />
       <div className="absolute inset-[18%] rounded-full border border-blue-pale/[0.06] transition-colors duration-300 [.hero-interactive[data-cursor=on]_&]:border-blue-light/20" />
 
-      <div className="diamond-stage relative z-[1] mx-auto flex aspect-square w-[89%] items-center justify-center">
-        <div className="diamond-cursor-shine pointer-events-none absolute inset-[8%] rounded-full opacity-0 transition-opacity duration-200 [.diamond-cursor-near_&]:opacity-100" />
-        <div className="diamond-float relative flex aspect-square w-[94%] items-center justify-center">
+      <div className="diamond-stage absolute inset-0 z-[1] flex items-center justify-center">
+        <div className="diamond-cursor-shine pointer-events-none absolute inset-[12%] rounded-full opacity-0 transition-opacity duration-200 [.diamond-cursor-near_&]:opacity-100" />
+        <div className="diamond-float relative flex aspect-square w-[72%] items-center justify-center sm:w-[74%] md:w-[76%]">
           <img
             src="/assets/hero-diamond.png"
             alt=""
-            className="diamond-img h-full w-full object-contain"
+            className="diamond-img h-full w-full object-contain object-center"
             draggable={false}
           />
         </div>

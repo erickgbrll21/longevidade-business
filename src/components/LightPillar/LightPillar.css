@@ -18,4 +18,13 @@
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.light-pillar-container canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: inherit;
 }

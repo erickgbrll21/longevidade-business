@@ -359,7 +359,7 @@ export default function HomePage() {
       <section id="diagnostico" className="bg-white py-14 md:py-20 lg:py-[100px]">
         <div className="wrap">
           <div className="reveal relative min-h-[280px] overflow-hidden rounded-3xl bg-gradient-to-br from-blue to-blue-deep p-6 text-white shadow-[var(--shadow-blue)] sm:min-h-[320px] sm:p-10 md:min-h-[360px] md:p-14">
-            <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+            <div className="pointer-events-none absolute inset-0 isolate hidden overflow-hidden rounded-[inherit] sm:block" aria-hidden="true">
               <LightPillar
                 topColor="#00bcff"
                 bottomColor="#0080ff"
@@ -373,6 +373,7 @@ export default function HomePage() {
                 interactive={false}
                 mixBlendMode="screen"
                 quality="medium"
+                className="rounded-[inherit]"
               />
             </div>
             <div

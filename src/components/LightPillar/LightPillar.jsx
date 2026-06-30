@@ -88,6 +88,12 @@ export default function LightPillar({
     renderer.setSize(width, height)
     renderer.setPixelRatio(settings.pixelRatio)
     renderer.setClearColor(0x000000, 0)
+    container.style.overflow = 'hidden'
+    container.style.borderRadius = 'inherit'
+    renderer.domElement.style.display = 'block'
+    renderer.domElement.style.width = '100%'
+    renderer.domElement.style.height = '100%'
+    renderer.domElement.style.borderRadius = 'inherit'
     container.appendChild(renderer.domElement)
     rendererRef.current = renderer
 

@@ -170,6 +170,7 @@
     animation: diamond-float 12s ease-in-out infinite;
     filter: drop-shadow(0 20px 40px rgba(2, 136, 209, 0.45));
     transition: filter 0.25s ease;
+    transform-origin: center center;
   }
 
   .diamond-img {
